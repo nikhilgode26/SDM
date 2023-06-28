@@ -4,11 +4,11 @@ var app = exp();
 
 app.use(bp.urlencoded({extended: false }))
 
-// app.listen(9000,function(err){
-// if(!err)
-// console.log("server connected");
+app.listen(9000,function(err){
+if(!err)
+console.log("server connected");
 
-// })
+})
  
 app.get('/getForm',function(req,resp){
     resp.sendFile(__dirname+"/ModuleEndQ2.html")
