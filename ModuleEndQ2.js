@@ -11,7 +11,7 @@ app.use(bp.urlencoded({extended: false }))
 // })
  
 app.get('/getForm',function(req,resp){
-    resp.sendFile(__dirname+"/getForm.html")
+    resp.sendFile(__dirname+"/ModuleEndQ2.html")
 })
 
 app.post('/getDataTable',function(req,resp){
